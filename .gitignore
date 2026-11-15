@@ -1,0 +1,26 @@
+# Visual Studio and local settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build and test output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Tt]est[Rr]esult*/
+artifacts/
+
+# Windows and macOS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
